@@ -1,4 +1,4 @@
-using BroadMountain_BlazorNetCoreHosted.Client;
+using BroadMountainBlazorNetCoreHosted.Client;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 

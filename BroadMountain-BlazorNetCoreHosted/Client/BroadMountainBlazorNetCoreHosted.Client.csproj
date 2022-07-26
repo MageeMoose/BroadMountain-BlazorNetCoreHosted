@@ -13,7 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shared\BroadMountain-BlazorNetCoreHosted.Shared.csproj" />
+    <ProjectReference Include="..\Shared\BroadMountainBlazorNetCoreHosted.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Shared\Components" />
   </ItemGroup>
 
 </Project>

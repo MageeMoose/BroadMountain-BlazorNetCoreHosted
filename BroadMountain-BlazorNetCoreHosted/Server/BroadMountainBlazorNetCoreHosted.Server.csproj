@@ -4,7 +4,6 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>BroadMountain-BlazorNetCoreHosted.Server</RootNamespace>
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
   </PropertyGroup>
 
@@ -13,8 +12,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Client\BroadMountain-BlazorNetCoreHosted.Client.csproj" />
-    <ProjectReference Include="..\Shared\BroadMountain-BlazorNetCoreHosted.Shared.csproj" />
+    <ProjectReference Include="..\Client\BroadMountainBlazorNetCoreHosted.Client.csproj" />
+    <ProjectReference Include="..\Shared\BroadMountainBlazorNetCoreHosted.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers" />
   </ItemGroup>
 
 
